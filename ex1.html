@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS carousel</title>
+    <!--  font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Carousel Example</h1>
+    
+    <section class="carousel">
+        <button class="carouselBtn leftBtn isHidden">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+        </button>
+
+        <!-- div.carouselConatiner>ul.carouselItems>li*6.carouselSlide>h2{Headline $}+img[src=images/0$.jpg][alt='image description']+p>lorem -->
+        <div class="carouselContainer">
+            <ul class="carouselItems">
+                <li class="carouselSlide currentSlide">
+                    <h2>Headline 1</h2>
+                    <img src="images/01.jpg" alt="image description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, doloremque aut. Maxime modi minima pariatur dignissimos eius distinctio vero veniam quaerat debitis libero. Labore cum deleniti excepturi nihil obcaecati fugit?</p>
+                </li>
+                <li class="carouselSlide">
+                    <h2>Headline 2</h2>
+                    <img src="images/02.jpg" alt="image description">
+                    <p>Quasi ducimus, laboriosam autem eum commodi porro eaque cupiditate voluptatum, eius illo ex corporis! </p>
+                </li>
+                <li class="carouselSlide">
+                    <h2>Headline 3</h2>
+                    <img src="images/03.jpg" alt="image description">
+                    <p>Veritatis exercitationem reprehenderit atque ducimus debitis, accusantium facere ullam placeat corrupti quam fuga. Reiciendis quia temporibus perspiciatis officiis quibusdam doloremque earum mollitia beatae architecto nobis. Asperiores sed accusamus est placeat?</p>
+                </li>
+                <li class="carouselSlide">
+                    <h2>Headline 4</h2>
+                    <img src="images/04.jpg" alt="image description">
+                    <p>Sequi necessitatibus laborum perspiciatis, cumque consequatur quas culpa, voluptatibus at repellendus recusandae, veniam omnis dolorem facilis praesentium. Excepturi facere asperiores temporibus quis rem eius! Fuga rem culpa aperiam ab ducimus.</p>
+                </li>
+                <li class="carouselSlide">
+                    <h2>Headline 5</h2>
+                    <img src="images/05.jpg" alt="image description">
+                    <p>Dignissimos, inventore omnis dolorem rem magnam reiciendis magni explicabo quas aliquam doloremque hic voluptas temporibus excepturi at modi natus non placeat enim quod? Laborum, in fugiat voluptate consequatur rerum est?</p>
+                </li>
+                <li class="carouselSlide">
+                    <h2>Headline 6</h2>
+                    <img src="images/06.jpg" alt="image description">
+                    <p>Autem rerum porro consequatur ab voluptatum, et quod ullam nemo id placeat laborum quo incidunt error voluptatibus praesentium, cumque nulla? Eum natus ad consequatur laborum omnis illum a eaque voluptas.</p>
+                </li>
+            </ul>
+        </div>
+        <button class="carouselBtn rightBtn">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+        </button>
+
+        <nav class="carouselNav">
+            <button class="carouselIndicator currentSlide"></button>
+            <button class="carouselIndicator"></button>
+            <button class="carouselIndicator"></button>
+            <button class="carouselIndicator"></button>
+            <button class="carouselIndicator"></button>
+            <button class="carouselIndicator"></button>
+        </nav>
+    </section>
+    
+    <script src="scripts/ex1.js"></script>
+</body>
+</html>
+
